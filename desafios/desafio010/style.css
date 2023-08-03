@@ -1,0 +1,239 @@
+@font-face {
+    font-family:cavalo;
+    src: url(fontes/idroid.otf) format(Opentype);
+}
+
+:root {
+    --lol: #84E1AD;
+}
+* {
+    margin: 0px;
+    padding: 0px;}
+h1#centro {
+    font-family: Arial, Helvetica, sans-serif
+}
+body { background-color:var(--lol);
+    
+
+}
+
+ article img {
+    width: 100%;
+}
+
+header#cabecalho {
+    min-height: 150px;
+    max-width: 1920px;
+    min-width: 500px;
+    background-image: linear-gradient(to bottom, #36c777, #113b24);
+    margin: -8px -8px 0px -8px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    
+}
+
+.titulo {
+    
+    font-family: "Bebas Neue","sans-serif";
+    font-weight: lighter;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    
+}
+
+nav {
+    background-color: #113b24;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    text-align: left;
+
+    
+
+} 
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    
+    
+    
+    
+} 
+header > p {
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.377);
+
+}
+.bob > h1 {
+    font-family: "cavalo";
+    margin-left: 20px ;
+    margin-right: 10px;
+    color: #1e7244;
+    font-size: 2em;
+}
+.bob > p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+   
+   margin: 15px 0px;
+   font-size: 1em;
+   font-family: sans-serif;
+    
+}
+section#Principal {
+    height: auto;
+    
+    min-width: 550px;
+    max-width: 1000px;
+    border: 2px solid rgb(0, 80, 0);
+    margin: 0px auto 0px auto ;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+   
+}
+.bob > h2 {
+    font-family: "cavalo";
+    margin-left: 20px ;
+    margin-right: 10px;
+    color: #2ba160;
+    background-image: linear-gradient(to right, #3fe28856, #5ef5a200);
+    font-size: 1.5em;
+
+}
+span {
+    color: #1e7244;
+    font-weight: bolder;
+}
+.bob > p > a {
+    text-decoration: none;
+    color: #1e7244;
+    font-weight: bolder;
+    background-image:linear-gradient( to right, #3fe28856, #5ef5a200) ;
+    padding: 2px 4px;
+}
+
+.especial::after {
+    content: ' 🔗'; 
+    margin-left: 1px;
+}
+
+.bob a:hover {
+    text-decoration: underline;
+    color: #2ba160;
+
+}
+
+nav > a:hover {
+    background-color: #1e7244;
+    color: #1A5C38;
+      
+}
+
+.loko {
+    
+   max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+.video {
+
+    border: 10px solid darkgreen;
+    width: 100%;
+    display: block;
+    margin: 0px 0px 0px -10px;
+}
+
+
+.learn {
+    color: white;
+    background-color: rgb(9, 160, 9);
+    padding-top: 20.5px;
+    min-width: 550px;
+    max-width: 1000px;
+    width: 100%;
+    height: 40px;
+    margin-left: -10px;
+    margin-right: -5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    font-size: 1.1em;  
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 15px;
+      
+}
+
+
+.lol > p {
+    text-align: justify;
+    text-indent: 30px;
+    font-family: sans-serif;    
+}
+
+li::before {
+    content: '✔️' ;
+    margin-right: 10px;
+
+}
+.bro {
+    margin-left: 250px;
+    margin-top: -162px;
+    min-width: 200px;
+    
+    
+   
+    
+}
+.sup {
+    margin-left: -20px;
+}
+.roger {
+    text-decoration: underline;
+    display: inline;
+}
+.lol > p > a{
+    text-decoration: none;
+    color: #1e7244;
+    font-weight: bolder;
+    background-image:linear-gradient( to right, #3fe28856, #5ef5a200) ;
+    
+}
+
+footer {
+    
+    min-width: 550px;
+    max-width: 1920px;
+    text-align: center;
+    background-color: #113b24;
+    color: white;
+    height: auto;
+    padding: 1px;
+    
+   
+    margin: 15px auto -8px auto;
+   
+    
+    font-family: sans-serif;
+    
+}
+strong {
+    font-weight: bolder;
+}
+
+footer > p > a {
+    background-image: linear-gradient(to right, #3fe28856, #5ef5a200);
+    color: white;
+    text-decoration: none;
+}   

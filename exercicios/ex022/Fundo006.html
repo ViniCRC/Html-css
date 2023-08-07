@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo Fixo de Tela</title>
     <style>
-        * {
-            margin: 0px;
-        }
+        
 
         body {
             height: 100vh;
-            background-color:blue;
-            background-image:url(imagens/wallpaper002.jpg);
-            background-position: center top;
-            background-repeat:repeat-y;
+            
+            /* Shorthand - Background
+                color > image > position > repeat > [size] > attachment
+            */
+            
+            background: blue url(imagens/wallpaper002.jpg) center top no-repeat fixed;
             background-size: cover;
         }
 
+
         main {
             background-color:white;
-            width: 400px;
+            max-width: 600px;
             padding:20px;
             margin: auto;
             border: 1px blue dashed;
